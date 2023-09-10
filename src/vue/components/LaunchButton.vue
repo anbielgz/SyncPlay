@@ -15,7 +15,7 @@
 	})
 	const emits = defineEmits(['showContextMenu'])
 
-	//Reactive
+	//Variables
 	var fileSound
 	const volumeValue = ref(100)
 	const faIcon = ref('fa-volume-xmark')
@@ -29,7 +29,7 @@
 				src: [props.src],
 				onload: () => {
 					console.log('audio cargado')
-				}
+				},
 			})
 			console.log(`Instancia Howl Creada en el boton: ${props.buttonID}`)
 		} else {
@@ -44,12 +44,13 @@
 	})
 	
 	
-	//Methods
+	//Metodos y Funciones
 	function launch_button_click(event) {
 		switch(event.which) {
 			case 1:
 
 				//Pendiente
+				
 				if (fileSound.playing() == true) {
 					fileSound.stop()
 					statusFile.value = '...'
@@ -58,6 +59,7 @@
 					fileSound.play()
 					statusFile.value = 'Reproduciendo...'
 				}
+				
 				break;
 			case 3:
 
@@ -181,15 +183,17 @@
 	.l-button-captions {
 		margin-left: 5px;
 		width: 95px;
-		overflow: hidden;
+		
 	}
 
 	.l-file-name {
 		font-family: Russo One;
 		font-size: 12px;
 		margin-bottom: 2px;
-		white-space: nowrap;
+		overflow: hidden;
 		text-overflow: ellipsis;
+		
+		white-space: nowrap;
 	}
 
 	.l-status {
