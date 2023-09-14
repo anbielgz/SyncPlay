@@ -1,29 +1,46 @@
-# syncplay
+# SynPlay
 
-This template should help get you started developing with Vue 3 in Vite.
+**SyncPlay** proyecto multiplataforma desarrollado con las tecnologias [Electron.js](https://www.electronjs.org), [Vue 3](https://www.vuejs.org) y [Vite](https://www.vitejs.org).
 
-## Recommended IDE Setup
+El objetivo principal de SyncPlay es permitir la reproducción simultánea de varios archivos de audio, cada uno indepediente del otro, dando asi el control de aspectos como el nivel de volumen, para asi obtener una mezcla de audio deseada. 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Esto proporciona una experiencia de reproducción de audio personalizable y altamente flexible, enfocada en un contexto de uso general, **SyncPlay** tambien se ha diseñado pensado para propocionar a las emisoras de radio una herramienta eficaz para la reproducción de cuñas, jingles, efectos de sonidos entre otros...
 
-## Customize configuration
+## Caracteristicas.
+- **Reproducción multiarchivo:** SyncPlay permite a los usuarios reproducir múltiples archivos de audio simultáneamente. Esto es útil para la creación de mezclas de sonido personalizadas.
+- **Compatibilidad multiplataforma:** SyncPlay está diseñada para funcionar en sistemas operativos Windows, Mac y Linux. Esto asegura que la mayor cantidad posible de usuarios pueda beneficiarse de sus funciones.
+- **Orientado a emisoras de radio:** SyncPlay no es sólo para uso general. También se ha diseñado pensando en las emisoras de radio, proporcionando una herramienta eficaz para la reproducción de cuñas, jingles y otros elementos de audio.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Descargas:
+- Proximamente...
 
-## Project Setup
 
-```sh
-npm install
+# Contribuciones
+
+SynPlay en un proyecto open-source, creado y administrado por mi persona, y esta abierto a que cualquier ayuda o apoyo de la comunidad mediante las Pull Resquest.
+
+# Como compilar por tu cuenta
+
+### **Requerimientos:**
+- Sistema operativo: Windows 7 en adelante
+- NodeJS v16
+- Editor de codigo de preferecia (Recomendado: [VS Code](https://code.visualstudio.com/))
+
+### **Clonar e instalar las depedencias:**
+
+```console
+> git clone https://github.com/anbielg/SyncPlay.git
+> cd SyncPlay
+> npm install
 ```
 
-### Compile and Hot-Reload for Development
+### **Ejecutar la aplicación (En modo de Desarrollo):**
 
-```sh
-npm run dev
+```console
+> npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
+### **Compilar la aplicación**: 
+```
+> npm run build
 ```
