@@ -142,10 +142,10 @@
 	    background-color: var(--secundary-bg-color);
 	    border: 1px solid var(--panel-border-color);
 	    color: var(--primary-text-color);
-	    width: 130px;
-	    height: 100px;
+	    width: 135px;
+	    height: 105px;
 	    padding: 10px;
-	    border-radius: 20px;
+	    border-radius: 15px;
 	    cursor: pointer;
 	    transition: all 0.4s ease;
 	}
