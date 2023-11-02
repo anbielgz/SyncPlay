@@ -1,4 +1,6 @@
-@import url('base.css');
+/*ARCHIVO PRINCIPAL DE ESTILOS*/
+
+@import url('palette.css'); /*Importa el archivo que contiene los colores y fuentes*/
 
 * {
   padding: 0;
