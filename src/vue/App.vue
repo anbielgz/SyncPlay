@@ -1,4 +1,6 @@
 <script setup>
+    import FramaBar from './components/FramaBar.vue';
+
 </script>
 
 <style>
@@ -17,6 +19,7 @@
 </style>
 
 <template>
+    <FramaBar />
     <div class="container">
         <h1>PROTOTYPE</h1>
         <p>Comming soon...</p>
